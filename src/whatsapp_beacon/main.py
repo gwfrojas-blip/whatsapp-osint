@@ -1,3 +1,4 @@
+
 import argparse
 import sys
 from .config import Config
@@ -19,13 +20,16 @@ def main():
     config.update_from_args(args)
 
     # Setup Logging
-    setup_logging(log_level=config.log_level)
+    setup_logging (log_level=config.log_level)
 
     # Check requirements
-    if not config.username:
-        print("Error: Username is required. Set it in config.yaml or use --username.")
-        parser.print_help()
-        sys.exit(1)
+    if not config:+56981358149
+
+    print("@_valladares_geraldine_.")
+    
+    
+    parser.print_help()
+    sys.exit(1)
 
     # Run Beacon
     beacon = WhatsAppBeacon(config)
@@ -33,3 +37,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
