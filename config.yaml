@@ -1,8 +1,10 @@
-username: ""
-language: "en"
+username: "@_valladares_geraldine_"
+language: "enes"
 excel: false
 headless: false
 split_char: "-"
 browser: "chrome"  # Options: chrome, firefox, edge
 log_level: "INFO"
 data_dir: "data"
+
+Start-ThreadJob

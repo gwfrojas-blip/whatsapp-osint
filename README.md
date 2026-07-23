@@ -78,8 +78,8 @@ You can permanently set your preferences in `config.yaml`:
 
 ```yaml
 username: "Target Name"
-language: "en"
-headless: false
+language: "enes"
+headles: false
 excel: false
 browser: "chrome"
 log_level: "INFO"
